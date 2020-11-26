@@ -16,7 +16,7 @@ a. `pip install virtualenv`
 b. `python -m virtualenv venv`  
 c1. Unix(Mac/Linux): `source venv/bin/activate`  
 c2. Windows: `.\venv\Scripts\activate`    
-d1. Unix(Mac/Linux):  `pip install torch torchvision`
+d1. Unix(Mac/Linux):  `pip install torch torchvision`  
 d2. Windows: `pip install torch===1.6.0 torchvision===0.7.0 -f https://download.pytorch.org/whl/torch_stable.html`
 e. `pip install -r requirements.txt`  
 f. `python setupCheck.py`  
