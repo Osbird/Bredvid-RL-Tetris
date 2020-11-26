@@ -7,24 +7,21 @@
 Download python 3.7.7 or greater e.g. [here](https://www.python.org/downloads/)  
 - Make sure you have pip installed if python is downloaded from other sources  
   
-Download pytorch [here](https://pytorch.org/get-started/locally/), with: 
-- stable build
-- Package: pip
-- language: Python
-- CUDA: 10.2  
-
+Download pytorch: 
+- With the following configuration: stable build, Package: pip, language: Python, CUDA: 10.2 
+- At this [url](https://pytorch.org/get-started/locally/), with: 
 
 Packages  
 a. `pip install virtualenv`  
 b. `python -m virtualenv venv`  
-c1. Windows: `.\venv\Scripts\activate`    
-c2. Unix: `source venv/bin/activate`  
-d1. Mac/Linux:  `pip install torch torchvision`
+c1. Unix(Mac/Linux): `source venv/bin/activate`  
+c2. Windows: `.\venv\Scripts\activate`    
+d1. Unix(Mac/Linux):  `pip install torch torchvision`
 d2. Windows: `pip install torch===1.6.0 torchvision===0.7.0 -f https://download.pytorch.org/whl/torch_stable.html`
-d. `pip install -r requirements.txt`  
-e. `python setupCheck.py`  
+e. `pip install -r requirements.txt`  
+f. `python setupCheck.py`  
 - Follow eventual prompts
-- If you have a graphics card, but don't have CUDA, install it here:
+- If you have a graphics card, but don't have CUDA, it can be installed here if you want faster training (optional):
   - [Windows og Linux](
 https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exenetwork)
   - [OS-X](https://docs.nvidia.com/cuda/cuda-installation-guide-mac-os-x/index.html)
