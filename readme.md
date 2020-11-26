@@ -6,10 +6,6 @@
 
 Download python 3.7.7 or greater e.g. [here](https://www.python.org/downloads/)  
 - Make sure you have pip installed if python is downloaded from other sources  
-  
-Download pytorch: 
-- With the following configuration: stable build, Package: pip, language: Python, CUDA: 10.2 
-- At this [url](https://pytorch.org/get-started/locally/)  
 
 Packages  
 a. `pip install virtualenv`  
