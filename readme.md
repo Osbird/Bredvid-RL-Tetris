@@ -4,7 +4,7 @@
 - Clone the repo
 - `cd Bredvid-RL-Tetris`
 
-Download python 3.7.7 or greater e.g. [here](https://www.python.org/downloads/)  
+Download python 3.7.7 or greater with 64-bit version e.g. [here](https://www.python.org/downloads/)  
 - Make sure you have pip installed if python is downloaded from other sources  
 
 Packages  
