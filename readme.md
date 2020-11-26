@@ -15,9 +15,16 @@ Packages
 a. `pip install virtualenv`  
 b. `python -m virtualenv venv`  
 c1. Unix(Mac/Linux): `source venv/bin/activate`  
-c2. Windows: `.\venv\Scripts\activate`    
-d1. Unix(Mac/Linux):  `pip install torch torchvision`  
-d2. Windows: `pip install torch===1.6.0 torchvision===0.7.0 -f https://download.pytorch.org/whl/torch_stable.html`
+c2. Windows: `.\venv\Scripts\activate`   
+d. Download pytorch: 
+- With the following configuration: stable build, Package: pip, language: Python, CUDA: Either "none" or default option
+- At this [url](https://pytorch.org/get-started/locally/)  
+
+Per nov 2020 the install commands are: 
+- Mac:  `pip install torch torchvision torchaudio`
+- Linux:  `pip install torch torchvision`
+- Windows: `pip install torch===1.7.0 torchvision===0.8.1 torchaudio===0.7.0 -f https://download.pytorch.org/whl/torch_stable.html` and double check for updated versions here  
+
 e. `pip install -r requirements.txt`  
 f. `python setupCheck.py`  
 - Follow eventual prompts
