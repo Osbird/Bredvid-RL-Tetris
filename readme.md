@@ -19,7 +19,7 @@ d. Download pytorch:
 Per nov 2020 the install commands are: 
 - Mac:  `pip install torch torchvision torchaudio`
 - Linux:  `pip install torch torchvision`
-- Windows: `pip install torch===1.7.0 torchvision===0.8.1 torchaudio===0.7.0 -f https://download.pytorch.org/whl/torch_stable.html` and double check for updated versions here  
+- Windows: `pip install torch===1.7.0 torchvision===0.8.1 torchaudio===0.7.0 -f https://download.pytorch.org/whl/torch_stable.html` 
 
 e. `pip install -r requirements.txt`  
 f. `python setupCheck.py`  
